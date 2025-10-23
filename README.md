@@ -12,7 +12,7 @@
 
 ## 🏗️ Project Structure and Components
 
-The application follows the **Service Pattern** within Laravel to separate concerns:
+The application follows the **Service Pattern** within Laravel to separate concerns (controller, command, test, bulk processing):
 
 | Component | Location | Role | Test Coverage |
 | :--- | :--- | :--- | :--- |
