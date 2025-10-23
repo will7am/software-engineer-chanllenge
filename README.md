@@ -19,6 +19,7 @@ The application follows the **Service Pattern** within Laravel to separate conce
 | **Controller** | `app/Http/Controllers/WikiController.php` | Handles HTTP requests, manages external HTTP calls (to Wikipedia), and orchestrates the service layer. | **None** |
 | **Service** | `app/Services/WikiPlotService.php` | Contains all core business logic: HTML parsing, numeric extraction, column identification, and image generation. | **Full** |
 | **Views** | `resources/views/...` | Handles the simple input form and the results page display. | N/A |
+| **Test** | `app/tests/Unit/WikiPlotServiceTest.php` | Contains unit tests for the Service layer logic. | **None** |
 
 ---
 
