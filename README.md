@@ -74,4 +74,4 @@ Unit tests are provided to validate the core logic, ensuring stability and corre
 To execute the full test suite, run the following command from the project root:
 
 ```bash
-./vendor/bin/phpunit
+php artisan test
